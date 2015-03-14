@@ -8,6 +8,8 @@ PyCRC
 .. image:: https://img.shields.io/pypi/v/PyCRC.svg
         :target: https://pypi.python.org/pypi/PyCRC
 
+.. image:: http://img.shields.io/badge/license-GPLv3-yellow.svg
+    :target: http://opensource.org/licenses/GPL-3.0
 
 Python libraries for CRC calculations (it supports CRC-16, CRC-32, CRC-CCITT, etc) 
 
