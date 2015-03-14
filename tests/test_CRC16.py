@@ -30,8 +30,9 @@ class CRC16Test(unittest.TestCase):
         self.assertRaises(Exception, self.crc.calculate(None), msg)
 
     def testNoArgCalculate(self):
-        msg = "Providing calculate method with no argument should return 0"
-        self.assertEqual(self.crc.calculate(), 0, msg)
+        msg = ("Providing calculate method with no argument should return "
+               "result in an Exception")
+        self.assertRaises(Exception, self.crc.calculate(), msg)
 
     def testCalculate(self):
         msg = "Calculated CRC16 for 0123456789 should be 0x443D"
