@@ -12,7 +12,7 @@ PyCRC
 Python libraries for CRC calculations (it supports CRC-16, CRC-32, CRC-CCITT, etc) 
 
 * Free software: GPLv3 license
-* Documentation: https://pyinfoepub.readthedocs.org.
+* Documentation: https://pycrc.readthedocs.org.
 
 
 Features
