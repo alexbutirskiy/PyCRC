@@ -26,3 +26,4 @@ Features
 * Different modules supported (CRC16, CRC32, CCITT, CRC16DNP, CRC16Kermit, CRC16SICK)
 * Supports strings and hexadecimal as input
 * Demo file provided
+* 100% coverage by unittests

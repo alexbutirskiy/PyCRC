@@ -24,8 +24,8 @@ test_requirements = [
 
 setup(
     name='PyCRC',
-    version='1.2',
-    description="Python CRC Calculations modules",
+    version='1.21',
+    description="Python CRC Calculations Modules",
     long_description=readme + '\n\n' + history,
     author="Cristian Năvălici",
     author_email='cristian.navalici@runbox.com',
@@ -39,7 +39,7 @@ setup(
     install_requires=requirements,
     license="GPLv3",
     zip_safe=False,
-    keywords='PyCRC, CRC',
+    keywords='PyCRC, CRC, CRC16, CRC16DNP, CRC16Kermit, CRC32',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
